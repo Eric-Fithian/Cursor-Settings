@@ -1,0 +1,56 @@
+{
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Tokyo Night",
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+        },
+        {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+        }
+    
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<C-d>"],
+        "after": ["<C-d>", "z", "z"]
+        },
+        {
+        "before": ["<C-u>"],
+        "after": ["<C-u>", "z", "z"]
+        }
+    ],
+    "editor.accessibilitySupport": "off",
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "interactiveWindow.executeWithShiftEnter": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "explorer.confirmDragAndDrop": false,
+    "diffEditor.maxComputationTime": 0,
+    "editor.lineNumbers": "relative",
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
+    "workbench.editor.showTabs": "single",
+
+    // Trying to get smooth scrolling when jumping text
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "notebook.output.scrolling": true,
+    "notebook.output.textLineLimit": 60,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.suggest.enabled": true,
+    "explorer.confirmPasteNative": false,
+    "files.exclude": {
+        "**/.DS_Store": false
+    }
+    // File/Editor Navigation
+  
+}
