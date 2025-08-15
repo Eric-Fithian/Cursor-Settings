@@ -3,26 +3,51 @@
     "workbench.colorTheme": "Tokyo Night",
     "vim.insertModeKeyBindings": [
         {
-        "before": ["j", "k"],
-        "after": ["<Esc>"]
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         },
         {
-        "before": ["k", "j"],
-        "after": ["<Esc>"]
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
-    
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-        "before": ["<C-d>"],
-        "after": ["<C-d>", "z", "z"]
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ]
         },
         {
-        "before": ["<C-u>"],
-        "after": ["<C-u>", "z", "z"]
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ]
         }
     ],
     "editor.accessibilitySupport": "off",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "interactiveWindow.executeWithShiftEnter": false,
@@ -35,7 +60,6 @@
     "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "all",
     "workbench.editor.showTabs": "single",
-
     // Trying to get smooth scrolling when jumping text
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": "on",
@@ -50,7 +74,9 @@
     "explorer.confirmPasteNative": false,
     "files.exclude": {
         "**/.DS_Store": false
+    },
+    "remote.SSH.remotePlatform": {
+        "merc": "linux"
     }
     // File/Editor Navigation
-  
 }
